@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serifS;
+}
+
+.sidebar{
+    width: 300px;
+    background: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.sidebarnav{
+    background: rgb(27, 27, 27);
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-bottom: 10px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.sidebarnav ul{
+    list-style: none;    
+}
+
+.sidebarnav ul li{
+    padding: 10px 20px;
+}
+
+.sidebarnav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.sidebarnav ul li a i{
+    font-size: 20px;    
+    margin-right: 10px;
+}
+
+.library::after{
+    content: '+';
+    text-align: center;
+    float: right;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.sidebar-scroll{
+    background-color: rgb(58, 58, 58);
+    padding: 30px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.sidebar-scroll h4{
+    color: white;
+    font-size: 18px;
+}
+
+.sidebar-scroll p{
+    color: white;
+    font-size: 12px;
+    margin: 12px 0px;
+}
+
+.sidebar-scroll button{
+    padding: 8px 15px;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.sidebar-scroll button:hover{
+    text-decoration: underline;
+}
+
+.privacy ul li a{
+    text-decoration: none;
+    color: rgb(53, 53, 53);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 1px 8px;
+}
+
+.privacy ul li a:hover{
+    text-decoration: underline;
+
+}
+
+.privacy{
+    padding: 0px 12px;
+    margin-top: 30px;
+}
+
+.main{
+    margin-left: 300px;
+    background: #181818;
+}
+
+.main .topnav{
+    padding: 20px 30px;
+    background: #070707;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.main .topnav button{
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+.main .topnav .preview button i{
+    color: rgb(112, 112, 112);
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.topnav .login .sighnup{
+    color: #606060;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+
+.topnav .login .sighnup:hover{
+    color: white;
+}
+
+.topnav .login .loginbtn{
+    color: #2b2a2a;
+    font-size: 16px;
+    font-weight: 600;
+    background: white;
+    padding: 11px 15px;
+    border-radius: 23px;
+}
+
+.playlist{
+    padding: 20px 40px;
+}
+
+.playlist h2{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.playlist h2:hover{
+    text-decoration: underline;
+}
+
+.playlist .card{
+    display: flex;
+    gap: 18px;
+    overflow: hidden;
+
+}
+.playlist .card .item{
+    width: 190px;
+    min-width: 140px;
+    background-color: #212121;
+    padding: 15px;
+    border-radius: 14px;
+
+
+}
+
+.playlist .card .item img{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 6px;
+
+}
+
+.playlist .item h4{
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.playlist .item h4:hover{
+    text-decoration: underline;
+}
+
+.playlist .item p{
+    color: rgb(128, 127, 127);
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.playlist .item p:hover{
+    text-decoration: underline;
+}
+
+.main .playlist a{
+    text-decoration: none;
+}
